@@ -1,0 +1,223 @@
+[
+    {
+        "id": "b671c6af313ce13e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4e636dd7c75c2d6",
+        "type": "users_config",
+        "appPath": "/users",
+        "jwtCookieName": "nr.nodeUsers.jwt",
+        "jwtHttpsOnly": false
+    },
+    {
+        "id": "510a882e1404fcbe",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#182431",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#182431",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#182431",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#182431",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#314a64",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#e9e9e9",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#e9e9e9",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#314a64",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#e9e9e9",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "VMStudio4",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e9e58b40c0a0ef3e",
+        "type": "ui_group",
+        "name": "Relatorio",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "628eb0170f8f3065",
+        "type": "ui_group",
+        "name": "Signin",
+        "tab": "22a1e9981b7cd446",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": "#nr-dashboard{background-color: green;}"
+    },
+    {
+        "id": "22a1e9981b7cd446",
+        "type": "ui_tab",
+        "name": "Filtro Forno 8",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7e1bd104bb1024a3",
+        "type": "ui_group",
+        "name": "Historico",
+        "tab": "22a1e9981b7cd446",
+        "order": 4,
+        "disp": false,
+        "width": "24",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f13206f41bfe8153",
+        "type": "FINS Connection",
+        "name": "",
+        "host": "192.168.0.187",
+        "port": "9600",
+        "MODE": "",
+        "MODEType": "CJ",
+        "protocol": "",
+        "protocolType": "udp",
+        "ICF": "0x80",
+        "DNA": "0",
+        "DA1": "187",
+        "DA2": "0",
+        "SNA": "0",
+        "SA1": "132",
+        "SA2": "0",
+        "autoConnect": true
+    },
+    {
+        "id": "7a1ab5d6f8835b1f",
+        "type": "ui_group",
+        "name": "Sinotico",
+        "tab": "22a1e9981b7cd446",
+        "order": 2,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d44aaffc6d8beff",
+        "type": "ui_group",
+        "name": "Dados Sinotico",
+        "tab": "22a1e9981b7cd446",
+        "order": 3,
+        "disp": true,
+        "width": 14,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "32a9471f6d0cf193",
+        "type": "ui_group",
+        "name": "Editar Registro",
+        "tab": "22a1e9981b7cd446",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8db4782fd03bd749",
+        "type": "websocket-listener",
+        "path": "/txt",
+        "wholemsg": "true"
+    },
+    {
+        "id": "ac6994da9ea53ca5",
+        "type": "MSSQL-CN",
+        "name": "",
+        "server": "192.168.0.20",
+        "encyption": true,
+        "database": "CB_EMBRAMACO"
+    }
+]
