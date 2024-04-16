@@ -1,0 +1,24 @@
+{
+    "f83399b7854a1fc3": {
+        "user": "Temperatura_0001",
+        "password": "11012021"
+    },
+    "eedbd86cde67a4a0": {
+        "user": "postgres",
+        "password": "123456"
+    },
+    "696990961f990bf3": {
+        "user": "postgres",
+        "password": "123456"
+    },
+    "05432e71198a7932": {
+        "jwtSecret": "gEruoLvGwjmj5NHAuyMdmxYEQ2a7eoAv",
+        "nodeUsers": [
+            {
+                "username": "admin",
+                "password": "84351f4371f102023797e85dc535997a21339b7e1f285be8e0011c1399c351a71b6dab39a6c04d10eff01d99fdebc3bb9bc6483edf618aba79711d3c8762fe7a",
+                "scope": ""
+            }
+        ]
+    }
+}
