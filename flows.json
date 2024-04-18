@@ -554,7 +554,7 @@
         "type": "function",
         "z": "383607860e7a4d1c",
         "name": "function 1",
-        "func": "\nglobal.set(\"ctx\",{});\n\nreturn msg;",
+        "func": "\nglobal.set(\"ctx\",{});\n\nreturn fitão;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -610,7 +610,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
+        "x": 450,
         "y": 400,
         "wires": [
             []
