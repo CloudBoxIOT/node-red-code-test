@@ -430,7 +430,7 @@
         "type": "function",
         "z": "383607860e7a4d1c",
         "name": "function 1",
-        "func": "\nglobal.set(\"ctx\",{});\n\nreturn 777;",
+        "func": "\nglobal.set(\"ctx\",{});\n\nreturn 888;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
