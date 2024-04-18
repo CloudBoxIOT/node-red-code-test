@@ -623,57 +623,6 @@
         ]
     },
     {
-        "id": "c1f7b8c2b9045ea0",
-        "type": "inject",
-        "z": "383607860e7a4d1c",
-        "d": true,
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "60",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 580,
-        "y": 100,
-        "wires": [
-            [
-                "8266a505acf0235b"
-            ]
-        ]
-    },
-    {
-        "id": "8266a505acf0235b",
-        "type": "exec",
-        "z": "383607860e7a4d1c",
-        "d": true,
-        "command": "cd C:\\Users\\User\\.node-red\\projects\\cliente1 && git fetch --all && git reset --hard origin/teste2",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 1060,
-        "y": 100,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
         "id": "0b0bbf1c5b1661b0",
         "type": "comment",
         "z": "f59314d11fe0572b",
