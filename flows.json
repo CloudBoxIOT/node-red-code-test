@@ -510,7 +510,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 690,
+        "x": 350,
         "y": 260,
         "wires": []
     },
@@ -554,7 +554,7 @@
         "type": "function",
         "z": "383607860e7a4d1c",
         "name": "function 1",
-        "func": "\nglobal.set(\"ctx\",{});\n\nreturn fitão;",
+        "func": "\nglobal.set(\"ctx\",{});\n\nreturn fitão2;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
