@@ -56,6 +56,56 @@
         "env": []
     },
     {
+        "id": "cea13ba425358354",
+        "type": "websocket-listener",
+        "path": "/ws/poco",
+        "wholemsg": "false"
+    },
+    {
+        "id": "b8f4e9c15997afda",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "401c6969fad2babd",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "b8f4e9c15997afda",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "df983e8373c076ce",
+        "type": "websocket-listener",
+        "path": "/ws/filtros",
+        "wholemsg": "false"
+    },
+    {
+        "id": "7e05f56cd19ab4dc",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "4d88919052ad9584",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4d88919052ad9584",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
         "id": "f83399b7854a1fc3",
         "type": "mqtt-broker",
         "name": "Temperatura",
@@ -85,20 +135,6 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
-    },
-    {
-        "id": "cea13ba425358354",
-        "type": "websocket-listener",
-        "path": "/ws/poco",
-        "wholemsg": "false"
-    },
-    {
-        "id": "b8f4e9c15997afda",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "16d18357d74cbde8",
@@ -198,17 +234,6 @@
         }
     },
     {
-        "id": "401c6969fad2babd",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "b8f4e9c15997afda",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "ad0b6133c3440136",
         "type": "FINS Connection",
         "name": "",
@@ -226,12 +251,6 @@
         "SA1": "38",
         "SA2": "0",
         "autoConnect": true
-    },
-    {
-        "id": "df983e8373c076ce",
-        "type": "websocket-listener",
-        "path": "/ws/filtros",
-        "wholemsg": "false"
     },
     {
         "id": "05432e71198a7932",
@@ -257,25 +276,6 @@
         "port": "5432",
         "db": "cbiot",
         "ssl": false
-    },
-    {
-        "id": "7e05f56cd19ab4dc",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "4d88919052ad9584",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "4d88919052ad9584",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "81ca72732a5e9b55",
@@ -386,7 +386,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 350,
+        "x": 470,
         "y": 260,
         "wires": []
     },
@@ -430,7 +430,7 @@
         "type": "function",
         "z": "383607860e7a4d1c",
         "name": "function 1",
-        "func": "\nglobal.set(\"ctx\",{});\n\nreturn fitaooo;",
+        "func": "\nglobal.set(\"ctx\",{});\n\nreturn 123456789410;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -486,7 +486,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 670,
         "y": 400,
         "wires": [
             []
@@ -644,9 +644,7 @@
         "x": 92,
         "y": 100,
         "wires": [
-            [
-                "7949e289.83e98c"
-            ]
+            []
         ]
     },
     {
@@ -659,25 +657,6 @@
         "x": 630,
         "y": 80,
         "wires": []
-    },
-    {
-        "id": "7949e289.83e98c",
-        "type": "users_isloggedin",
-        "z": "f59314d11fe0572b",
-        "name": "",
-        "enableCustomHandler": true,
-        "outputs": 2,
-        "x": 250,
-        "y": 100,
-        "wires": [
-            [
-                "9138efc0cbdb234c",
-                "9189f88ff69ff288"
-            ],
-            [
-                "387fe868.031428"
-            ]
-        ]
     },
     {
         "id": "387fe868.031428",
@@ -1359,7 +1338,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1070,
+        "x": 1130,
         "y": 120,
         "wires": []
     },
@@ -1463,7 +1442,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1070,
+        "x": 1130,
         "y": 80,
         "wires": []
     },
