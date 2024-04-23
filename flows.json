@@ -1,8 +1,8 @@
 [
     {
-        "id": "b671c6af313ce13e",
+        "id": "63fb62266d708dac",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Config",
         "disabled": false,
         "info": "",
         "env": []
@@ -113,17 +113,6 @@
         }
     },
     {
-        "id": "e9e58b40c0a0ef3e",
-        "type": "ui_group",
-        "name": "Relatorio",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "628eb0170f8f3065",
         "type": "ui_group",
         "name": "Signin",
@@ -153,25 +142,6 @@
         "width": "24",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "f13206f41bfe8153",
-        "type": "FINS Connection",
-        "name": "",
-        "host": "192.168.0.187",
-        "port": "9600",
-        "MODE": "",
-        "MODEType": "CJ",
-        "protocol": "",
-        "protocolType": "udp",
-        "ICF": "0x80",
-        "DNA": "0",
-        "DA1": "187",
-        "DA2": "0",
-        "SNA": "0",
-        "SA1": "132",
-        "SA2": "0",
-        "autoConnect": true
     },
     {
         "id": "7a1ab5d6f8835b1f",
@@ -213,11 +183,441 @@
         "wholemsg": "true"
     },
     {
-        "id": "ac6994da9ea53ca5",
+        "id": "cea13ba425358354",
+        "type": "websocket-listener",
+        "path": "/ws/poco",
+        "wholemsg": "false"
+    },
+    {
+        "id": "b8f4e9c15997afda",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "401c6969fad2babd",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "b8f4e9c15997afda",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "df983e8373c076ce",
+        "type": "websocket-listener",
+        "path": "/ws/filtros",
+        "wholemsg": "false"
+    },
+    {
+        "id": "7e05f56cd19ab4dc",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "4d88919052ad9584",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4d88919052ad9584",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "560ff11810af7078",
+        "type": "MSSQL-CN",
+        "name": "SQL",
+        "server": "192.168.1.8",
+        "encyption": false,
+        "database": "E3_MAJOPAR"
+    },
+    {
+        "id": "f28eebd973e61929",
+        "type": "MSSQL-CN",
+        "name": "SQL",
+        "server": "192.168.1.8",
+        "encyption": false,
+        "database": "E3_MAJOPAR"
+    },
+    {
+        "id": "1e783410fdfd0d29",
+        "type": "FINS Connection",
+        "name": "",
+        "host": "192.168.6.102",
+        "port": "9600",
+        "MODE": "",
+        "MODEType": "CJ",
+        "protocol": "",
+        "protocolType": "udp",
+        "ICF": "0x80",
+        "DNA": "0",
+        "DA1": "102",
+        "DA2": "0",
+        "SNA": "0",
+        "SA1": "38",
+        "SA2": "0",
+        "autoConnect": true
+    },
+    {
+        "id": "5abeb9baa174a165",
         "type": "MSSQL-CN",
         "name": "",
         "server": "192.168.0.20",
         "encyption": true,
         "database": "CB_EMBRAMACO"
+    },
+    {
+        "id": "1486a3d5a3cd2ccc",
+        "type": "MSSQL-CN",
+        "name": "",
+        "server": "192.168.0.20",
+        "encyption": true,
+        "database": "CB_EMBRAMACO"
+    },
+    {
+        "id": "99cd5d2c2ebfb4a1",
+        "type": "MSSQL-CN",
+        "name": "MSSQL",
+        "server": "192.168.1.8",
+        "encyption": false,
+        "database": "E3_MAJOPAR"
+    },
+    {
+        "id": "119b96da3215bf75",
+        "type": "postgresdb",
+        "cfgname": "",
+        "hostname": "localhost",
+        "port": "5432",
+        "db": "cbiot",
+        "ssl": false
+    },
+    {
+        "id": "4a0501df727598f5",
+        "type": "postgresdb",
+        "cfgname": "",
+        "hostname": "localhost",
+        "port": "5432",
+        "db": "cbiot",
+        "ssl": false
+    },
+    {
+        "id": "4bc34cccffc15a2c",
+        "type": "MSSQL-CN",
+        "name": "SQL",
+        "server": "172.23.10.5",
+        "encyption": true,
+        "database": "E3_CERAL"
+    },
+    {
+        "id": "37d2c0af209f6088",
+        "type": "FINS Connection",
+        "name": "FINS",
+        "host": "192.168.6.102",
+        "port": "9600",
+        "MODE": "",
+        "MODEType": "CJ",
+        "protocol": "",
+        "protocolType": "udp",
+        "ICF": "128",
+        "DNA": "0",
+        "DA1": "102",
+        "DA2": "0",
+        "SNA": "0",
+        "SA1": "38",
+        "SA2": "0",
+        "autoConnect": false
+    },
+    {
+        "id": "c1ad1cc8a1fd2add",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "cbiot",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "123456",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "ca884cf30edd3e19",
+        "type": "MSSQL-CN",
+        "name": "SQL",
+        "server": "192.168.1.8",
+        "encyption": false,
+        "database": "E3_MAJOPAR"
+    },
+    {
+        "id": "2424e0725a748838",
+        "type": "MSSQL-CN",
+        "name": "SQL",
+        "server": "192.168.1.8",
+        "encyption": false,
+        "database": "E3_MAJOPAR"
+    },
+    {
+        "id": "1983678f638ccdb3",
+        "type": "FINS Connection",
+        "name": "",
+        "host": "192.168.6.102",
+        "port": "9600",
+        "MODE": "",
+        "MODEType": "CJ",
+        "protocol": "",
+        "protocolType": "udp",
+        "ICF": "0x80",
+        "DNA": "0",
+        "DA1": "102",
+        "DA2": "0",
+        "SNA": "0",
+        "SA1": "38",
+        "SA2": "0",
+        "autoConnect": true
+    },
+    {
+        "id": "e32bde85498d1265",
+        "type": "MSSQL-CN",
+        "name": "",
+        "server": "192.168.0.20",
+        "encyption": true,
+        "database": "CB_EMBRAMACO"
+    },
+    {
+        "id": "8526d0fb521a1f6c",
+        "type": "MSSQL-CN",
+        "name": "",
+        "server": "192.168.0.20",
+        "encyption": true,
+        "database": "CB_EMBRAMACO"
+    },
+    {
+        "id": "9bdce9579b8c403d",
+        "type": "MSSQL-CN",
+        "name": "MSSQL",
+        "server": "192.168.1.8",
+        "encyption": false,
+        "database": "E3_MAJOPAR"
+    },
+    {
+        "id": "46613ef0da89245e",
+        "type": "postgresdb",
+        "cfgname": "",
+        "hostname": "localhost",
+        "port": "5432",
+        "db": "cbiot",
+        "ssl": false
+    },
+    {
+        "id": "783025d112c679df",
+        "type": "postgresdb",
+        "cfgname": "",
+        "hostname": "localhost",
+        "port": "5432",
+        "db": "cbiot",
+        "ssl": false
+    },
+    {
+        "id": "ebfb78f3dd554a6e",
+        "type": "MSSQL-CN",
+        "name": "SQL",
+        "server": "172.23.10.5",
+        "encyption": true,
+        "database": "E3_CERAL"
+    },
+    {
+        "id": "b2250fc39d1cc613",
+        "type": "FINS Connection",
+        "name": "FINS",
+        "host": "192.168.6.102",
+        "port": "9600",
+        "MODE": "",
+        "MODEType": "CJ",
+        "protocol": "",
+        "protocolType": "udp",
+        "ICF": "128",
+        "DNA": "0",
+        "DA1": "102",
+        "DA2": "0",
+        "SNA": "0",
+        "SA1": "38",
+        "SA2": "0",
+        "autoConnect": false
+    },
+    {
+        "id": "0754f9858d29f1f0",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "192.168.1.38",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "cbiot",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "123456",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "c5d5466a4eb691ca",
+        "type": "postgresdb",
+        "cfgname": "",
+        "hostname": "localhost",
+        "port": "5432",
+        "db": "cbiot",
+        "ssl": false
+    },
+    {
+        "id": "17ad6f78f237c19a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "fantastic-actor.cloudmqtt.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "315837d3fdf102dc",
+        "type": "sqlitedb",
+        "db": "C:\\Users\\PROJETO\\OneDrive\\Área de Trabalho\\CLIENTES\\Aris\\banco de dados Aris\\datalog\\Rotina_Lora.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "51687f0ff4a33928",
+        "type": "http request",
+        "z": "63fb62266d708dac",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.telegram.org/bot{{token}}/sendMessage?chat_id={{_id}}&text={{text}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 560,
+        "y": 200,
+        "wires": [
+            [
+                "ace08877e8de615a"
+            ]
+        ]
+    },
+    {
+        "id": "ace08877e8de615a",
+        "type": "http response",
+        "z": "63fb62266d708dac",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c7735a5d5ff118e6",
+        "type": "function",
+        "z": "63fb62266d708dac",
+        "name": "format",
+        "func": "\nconst _id = `-1001853023050`; //Grupo de Alarmes Poços Majopar\n//const _id = `-4074074706`; //Grupo de Debug\n\nconst token = `5739148291:AAFTR6N11dndWPtDqFHY6QUk52gVDMuSAeM`;\nconst text = 'alarme';\n\nmsg._id = _id;\nmsg.token = token;\nmsg.text = text;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "51687f0ff4a33928"
+            ]
+        ]
+    },
+    {
+        "id": "a61a63685b76ea39",
+        "type": "inject",
+        "z": "63fb62266d708dac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "c7735a5d5ff118e6"
+            ]
+        ]
     }
 ]
