@@ -1,14 +1,16 @@
 {
-    "name": "node-red-code-test",
-    "description": "Teste de código único (PC Gabriel)",
+    "name": "CloudBoxIOT",
+    "description": "CloudBoxIOT",
     "version": "0.0.1",
     "dependencies": {
-        "node-red-contrib-mssql-plus": "0.12.1",
-        "node-red-dashboard": "3.6.2",
         "node-red-contrib-users": "0.1.10",
-        "node-red-contrib-ui-media": "1.2.0",
+        "node-red-contrib-mssql": "0.0.7",
+        "node-red-contrib-omron-fins": "0.5.0",
+        "node-red-contrib-postgresql": "0.14.0",
         "node-red-contrib-re-postgres": "0.3.4",
-        "node-red-contrib-omron-fins": "0.5.0"
+        "node-red-contrib-ui-media": "1.2.0",
+        "node-red-dashboard": "3.5.0",
+        "node-red-node-sqlite": "1.0.3"
     },
     "node-red": {
         "settings": {
