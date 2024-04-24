@@ -1131,8 +1131,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 370,
-        "y": 1200,
+        "x": 440,
+        "y": 1080,
         "wires": [
             [
                 "4b7c7c3da29a9241"
@@ -1166,8 +1166,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 1200,
+        "x": 300,
+        "y": 1080,
         "wires": [
             [
                 "86497c53d912d7b6"
@@ -1187,8 +1187,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
-        "y": 1200,
+        "x": 1090,
+        "y": 1080,
         "wires": []
     },
     {
