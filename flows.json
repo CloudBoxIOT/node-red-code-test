@@ -833,6 +833,78 @@
         "wires": []
     },
     {
+        "id": "0a6e75ed04b58744",
+        "type": "exec",
+        "z": "383607860e7a4d1c",
+        "command": "cd C:\\Users\\PROJETO\\AppData\\Roaming\\npm\\node_modules\\node-red && git pull",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 650,
+        "y": 720,
+        "wires": [
+            [
+                "07dacb1d926a1af3"
+            ],
+            [
+                "07dacb1d926a1af3"
+            ],
+            [
+                "07dacb1d926a1af3"
+            ]
+        ]
+    },
+    {
+        "id": "81d87eb9570f222e",
+        "type": "inject",
+        "z": "383607860e7a4d1c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 740,
+        "wires": [
+            [
+                "0a6e75ed04b58744"
+            ]
+        ]
+    },
+    {
+        "id": "07dacb1d926a1af3",
+        "type": "debug",
+        "z": "383607860e7a4d1c",
+        "name": "debug 89",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 740,
+        "wires": []
+    },
+    {
         "id": "0b0bbf1c5b1661b0",
         "type": "comment",
         "z": "f59314d11fe0572b",
