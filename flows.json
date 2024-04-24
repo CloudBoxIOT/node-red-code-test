@@ -1049,6 +1049,77 @@
         "wires": []
     },
     {
+        "id": "ae80cb608121f85f",
+        "type": "exec",
+        "z": "383607860e7a4d1c",
+        "command": "git pull origin main",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 350,
+        "y": 920,
+        "wires": [
+            [
+                "0b2b0d5ec53879fc"
+            ],
+            [
+                "0b2b0d5ec53879fc"
+            ],
+            [
+                "0b2b0d5ec53879fc"
+            ]
+        ]
+    },
+    {
+        "id": "3e3902fb0b706933",
+        "type": "inject",
+        "z": "383607860e7a4d1c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 920,
+        "wires": [
+            [
+                "ae80cb608121f85f"
+            ]
+        ]
+    },
+    {
+        "id": "0b2b0d5ec53879fc",
+        "type": "debug",
+        "z": "383607860e7a4d1c",
+        "name": "debug 92",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 920,
+        "wires": []
+    },
+    {
         "id": "0b0bbf1c5b1661b0",
         "type": "comment",
         "z": "f59314d11fe0572b",
