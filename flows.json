@@ -844,8 +844,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 540,
-        "y": 720,
+        "x": 440,
+        "y": 740,
         "wires": [
             [
                 "07dacb1d926a1af3"
@@ -900,7 +900,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1090,
+        "x": 760,
         "y": 740,
         "wires": []
     },
@@ -974,6 +974,78 @@
         "statusType": "auto",
         "x": 1080,
         "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "f387d2b5e1a8312a",
+        "type": "exec",
+        "z": "383607860e7a4d1c",
+        "command": "cd .node-red\\projects\\node-red-code-test && git pull",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 450,
+        "y": 840,
+        "wires": [
+            [
+                "cc76385ef6406b90"
+            ],
+            [
+                "cc76385ef6406b90"
+            ],
+            [
+                "cc76385ef6406b90"
+            ]
+        ]
+    },
+    {
+        "id": "cab58e084919b59c",
+        "type": "inject",
+        "z": "383607860e7a4d1c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 840,
+        "wires": [
+            [
+                "f387d2b5e1a8312a"
+            ]
+        ]
+    },
+    {
+        "id": "cc76385ef6406b90",
+        "type": "debug",
+        "z": "383607860e7a4d1c",
+        "name": "debug 91",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 840,
         "wires": []
     },
     {
