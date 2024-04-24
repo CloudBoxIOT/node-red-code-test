@@ -836,7 +836,7 @@
         "id": "0a6e75ed04b58744",
         "type": "exec",
         "z": "383607860e7a4d1c",
-        "command": "cd \\.node-red\\projects\\CloudBoxIOT && git pull",
+        "command": "cd .node-red\\projects\\CloudBoxIOT && git pull",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
