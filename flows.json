@@ -836,7 +836,7 @@
         "id": "0a6e75ed04b58744",
         "type": "exec",
         "z": "383607860e7a4d1c",
-        "command": "cd C:\\Users\\PROJETO\\.node-red\\projects\\CloudBoxIOT && git pull",
+        "command": "cd \\.node-red\\projects\\CloudBoxIOT && git pull",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -844,7 +844,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 600,
+        "x": 540,
         "y": 720,
         "wires": [
             [
@@ -917,7 +917,7 @@
         "oldrc": false,
         "name": "",
         "x": 430,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "9f6b48a03b9ccfea"
@@ -952,7 +952,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 290,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "37d4b0326e77ebd6"
@@ -973,7 +973,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1080,
-        "y": 880,
+        "y": 1040,
         "wires": []
     },
     {
