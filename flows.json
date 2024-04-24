@@ -836,7 +836,7 @@
         "id": "0a6e75ed04b58744",
         "type": "exec",
         "z": "383607860e7a4d1c",
-        "command": "cd C:\\Users\\PROJETO\\AppData\\Roaming\\npm\\node_modules\\node-red && git pull",
+        "command": "cd C:\\Users\\PROJETO\\.node-red\\projects\\CloudBoxIOT && git pull",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -844,7 +844,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 650,
+        "x": 600,
         "y": 720,
         "wires": [
             [
